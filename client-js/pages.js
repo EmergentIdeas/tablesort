@@ -1,6 +1,9 @@
 window.require = require
+const Tablesort = require('../lib/tablesort')
 
-let tri = require('tripartite')
+let table = new Tablesort(document.querySelector('#example'))
+
+// let tri = require('tripartite')
 
 
 // load templates like

@@ -424,15 +424,37 @@ th {
   padding: 0;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
+table th:not(.no-sort) {
+  cursor: pointer;
 }
-.full-back {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+table th:not(.no-sort):after {
+  content: '';
+  float: right;
+  margin-top: 7px;
+  border-width: 0 4px 4px;
+  border-style: solid;
+  border-color: #404040 transparent;
+  visibility: hidden;
+  opacity: 0;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
-.nowrap {
-  white-space: nowrap;
+table th[aria-sort]:not(.no-sort):after {
+  visibility: visible;
+  opacity: 0.4;
+}
+table th[aria-sort=ascending]:not(.no-sort):after {
+  border-bottom: none;
+  border-width: 4px 4px 0;
+}
+table th:not(.no-sort):hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+table td,
+table th {
+  padding: 4px 8px;
 }
 /*# sourceMappingURL=pages.css.map */

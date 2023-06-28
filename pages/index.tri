@@ -1,4 +1,2302 @@
 __::start__
-<div class="page page-landing">
+<div>
+	<table id="example">
+		<thead>
+			<tr>
+				<th data-comparator="numberish">
+					#
+				</th>
+				<th>Country</th>
+				<th data-comparator="numberish"> GDP<br> (nominal, 2017) </th>
+				<th class="no-sort">GDP<br> (abbrev.)</th>
+				<th data-comparator="numberish">GDP <br> growth</th>
+				<th data-comparator="numberish"> Population<br> (2017) </th>
+				<th data-comparator="numberish"> per capita </th>
+				<th data-comparator="numberish">Share of<br> World GDP </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>
+					United States
+				</td>
+				<td>$19,485,394,000,000</td>
+				<td>$19.485 trillion</td>
+				<td>2.27%</td>
+				<td>325,084,756</td>
+				<td>$59,939</td>
+				<td>24.08%</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>
+					China
+				</td>
+				<td>$12,237,700,479,375</td>
+				<td>$12.238 trillion</td>
+				<td>6.90%</td>
+				<td>1,421,021,791</td>
+				<td>$8,612</td>
+				<td>15.12%</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>
+					Japan
+				</td>
+				<td>$4,872,415,104,315</td>
+				<td>$4.872 trillion</td>
+				<td>1.71%</td>
+				<td>127,502,725</td>
+				<td>$38,214</td>
+				<td>6.02%</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>
+					Germany
+				</td>
+				<td>$3,693,204,332,230</td>
+				<td>$3.693 trillion</td>
+				<td>2.22%</td>
+				<td>82,658,409</td>
+				<td>$44,680</td>
+				<td>4.56%</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>
+					India
+				</td>
+				<td>$2,650,725,335,364</td>
+				<td>$2.651 trillion</td>
+				<td>6.68%</td>
+				<td>1,338,676,785</td>
+				<td>$1,980</td>
+				<td>3.28%</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>
+					United Kingdom
+				</td>
+				<td>$2,637,866,340,434</td>
+				<td>$2.638 trillion</td>
+				<td>1.79%</td>
+				<td>66,727,461</td>
+				<td>$39,532</td>
+				<td>3.26%</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>
+					France
+				</td>
+				<td>$2,582,501,307,216</td>
+				<td>$2.583 trillion</td>
+				<td>1.82%</td>
+				<td>64,842,509</td>
+				<td>$39,827</td>
+				<td>3.19%</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>
+					Brazil
+				</td>
+				<td>$2,053,594,877,013</td>
+				<td>$2.054 trillion</td>
+				<td>0.98%</td>
+				<td>207,833,823</td>
+				<td>$9,881</td>
+				<td>2.54%</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>
+					Italy
+				</td>
+				<td>$1,943,835,376,342</td>
+				<td>$1.944 trillion</td>
+				<td>1.50%</td>
+				<td>60,673,701</td>
+				<td>$32,038</td>
+				<td>2.40%</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>
+					Canada
+				</td>
+				<td>$1,647,120,175,449</td>
+				<td>$1.647 trillion</td>
+				<td>3.05%</td>
+				<td>36,732,095</td>
+				<td>$44,841</td>
+				<td>2.04%</td>
+			</tr>
+			<tr>
+				<td>11</td>
+				<td>
+					Russia
+				</td>
+				<td>$1,578,417,211,937</td>
+				<td>$1.578 trillion</td>
+				<td>1.55%</td>
+				<td>145,530,082</td>
+				<td>$10,846</td>
+				<td>1.95%</td>
+			</tr>
+			<tr>
+				<td>12</td>
+				<td>
+					South Korea
+				</td>
+				<td>$1,530,750,923,149</td>
+				<td>$1.531 trillion</td>
+				<td>3.06%</td>
+				<td>51,096,415</td>
+				<td>$29,958</td>
+				<td>1.89%</td>
+			</tr>
+			<tr>
+				<td>13</td>
+				<td>
+					Australia
+				</td>
+				<td>$1,323,421,072,479</td>
+				<td>$1.323 trillion</td>
+				<td>1.96%</td>
+				<td>24,584,620</td>
+				<td>$53,831</td>
+				<td>1.64%</td>
+			</tr>
+			<tr>
+				<td>14</td>
+				<td>
+					Spain
+				</td>
+				<td>$1,314,314,164,402</td>
+				<td>$1.314 trillion</td>
+				<td>3.05%</td>
+				<td>46,647,428</td>
+				<td>$28,175</td>
+				<td>1.62%</td>
+			</tr>
+			<tr>
+				<td>15</td>
+				<td>
+					Mexico
+				</td>
+				<td>$1,150,887,823,404</td>
+				<td>$1.151 trillion</td>
+				<td>2.04%</td>
+				<td>124,777,324</td>
+				<td>$9,224</td>
+				<td>1.42%</td>
+			</tr>
+			<tr>
+				<td>16</td>
+				<td>
+					Indonesia
+				</td>
+				<td>$1,015,420,587,285</td>
+				<td>$1.015 trillion</td>
+				<td>5.07%</td>
+				<td>264,650,963</td>
+				<td>$3,837</td>
+				<td>1.25%</td>
+			</tr>
+			<tr>
+				<td>17</td>
+				<td>
+					Turkey
+				</td>
+				<td>$851,549,299,635</td>
+				<td>$852 billion</td>
+				<td>7.44%</td>
+				<td>81,116,450</td>
+				<td>$10,498</td>
+				<td>1.05%</td>
+			</tr>
+			<tr>
+				<td>18</td>
+				<td>
+					Netherlands
+				</td>
+				<td>$830,572,618,850</td>
+				<td>$831 billion</td>
+				<td>3.16%</td>
+				<td>17,021,347</td>
+				<td>$48,796</td>
+				<td>1.03%</td>
+			</tr>
+			<tr>
+				<td>19</td>
+				<td>
+					Saudi Arabia
+				</td>
+				<td>$686,738,400,000</td>
+				<td>$687 billion</td>
+				<td>-0.86%</td>
+				<td>33,101,179</td>
+				<td>$20,747</td>
+				<td>0.85%</td>
+			</tr>
+			<tr>
+				<td>20</td>
+				<td>
+					Switzerland
+				</td>
+				<td>$678,965,423,322</td>
+				<td>$679 billion</td>
+				<td>1.09%</td>
+				<td>8,455,804</td>
+				<td>$80,296</td>
+				<td>0.84%</td>
+			</tr>
+			<tr>
+				<td>21</td>
+				<td>
+					Argentina
+				</td>
+				<td>$637,430,331,479</td>
+				<td>$637 billion</td>
+				<td>2.85%</td>
+				<td>43,937,140</td>
+				<td>$14,508</td>
+				<td>0.79%</td>
+			</tr>
+			<tr>
+				<td>22</td>
+				<td>
+					Sweden
+				</td>
+				<td>$535,607,385,506</td>
+				<td>$536 billion</td>
+				<td>2.29%</td>
+				<td>9,904,896</td>
+				<td>$54,075</td>
+				<td>0.66%</td>
+			</tr>
+			<tr>
+				<td>23</td>
+				<td>
+					Poland
+				</td>
+				<td>$526,465,839,003</td>
+				<td>$526 billion</td>
+				<td>4.81%</td>
+				<td>37,953,180</td>
+				<td>$13,871</td>
+				<td>0.65%</td>
+			</tr>
+			<tr>
+				<td>24</td>
+				<td>
+					Belgium
+				</td>
+				<td>$494,763,551,891</td>
+				<td>$495 billion</td>
+				<td>1.73%</td>
+				<td>11,419,748</td>
+				<td>$43,325</td>
+				<td>0.61%</td>
+			</tr>
+			<tr>
+				<td>25</td>
+				<td>
+					Thailand
+				</td>
+				<td>$455,302,682,986</td>
+				<td>$455 billion</td>
+				<td>3.91%</td>
+				<td>69,209,810</td>
+				<td>$6,579</td>
+				<td>0.56%</td>
+			</tr>
+			<tr>
+				<td>26</td>
+				<td>
+					Iran
+				</td>
+				<td>$454,012,768,724</td>
+				<td>$454 billion</td>
+				<td>3.76%</td>
+				<td>80,673,883</td>
+				<td>$5,628</td>
+				<td>0.56%</td>
+			</tr>
+			<tr>
+				<td>27</td>
+				<td>
+					Austria
+				</td>
+				<td>$416,835,975,862</td>
+				<td>$417 billion</td>
+				<td>3.04%</td>
+				<td>8,819,901</td>
+				<td>$47,261</td>
+				<td>0.52%</td>
+			</tr>
+			<tr>
+				<td>28</td>
+				<td>
+					Norway
+				</td>
+				<td>$399,488,897,844</td>
+				<td>$399 billion</td>
+				<td>1.92%</td>
+				<td>5,296,326</td>
+				<td>$75,428</td>
+				<td>0.49%</td>
+			</tr>
+			<tr>
+				<td>29</td>
+				<td>
+					United Arab Emirates
+				</td>
+				<td>$382,575,085,092</td>
+				<td>$383 billion</td>
+				<td>0.79%</td>
+				<td>9,487,203</td>
+				<td>$40,325</td>
+				<td>0.47%</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td>
+					Nigeria
+				</td>
+				<td>$375,745,486,521</td>
+				<td>$376 billion</td>
+				<td>0.81%</td>
+				<td>190,873,244</td>
+				<td>$1,969</td>
+				<td>0.46%</td>
+			</tr>
+			<tr>
+				<td>31</td>
+				<td>
+					Israel
+				</td>
+				<td>$353,268,411,919</td>
+				<td>$353 billion</td>
+				<td>3.33%</td>
+				<td>8,243,848</td>
+				<td>$42,852</td>
+				<td>0.44%</td>
+			</tr>
+			<tr>
+				<td>32</td>
+				<td>
+					South Africa
+				</td>
+				<td>$348,871,647,960</td>
+				<td>$349 billion</td>
+				<td>1.32%</td>
+				<td>57,009,756</td>
+				<td>$6,120</td>
+				<td>0.43%</td>
+			</tr>
+			<tr>
+				<td>33</td>
+				<td>
+					Hong Kong
+				</td>
+				<td>$341,449,340,451</td>
+				<td>$341 billion</td>
+				<td>3.79%</td>
+				<td>7,306,322</td>
+				<td>$46,733</td>
+				<td>0.42%</td>
+			</tr>
+			<tr>
+				<td>34</td>
+				<td>
+					Ireland
+				</td>
+				<td>$331,430,014,003</td>
+				<td>$331 billion</td>
+				<td>7.80%</td>
+				<td>4,753,279</td>
+				<td>$69,727</td>
+				<td>0.41%</td>
+			</tr>
+			<tr>
+				<td>35</td>
+				<td>
+					Denmark
+				</td>
+				<td>$329,865,537,183</td>
+				<td>$330 billion</td>
+				<td>2.24%</td>
+				<td>5,732,274</td>
+				<td>$57,545</td>
+				<td>0.41%</td>
+			</tr>
+			<tr>
+				<td>36</td>
+				<td>
+					Singapore
+				</td>
+				<td>$323,907,234,412</td>
+				<td>$324 billion</td>
+				<td>3.62%</td>
+				<td>5,708,041</td>
+				<td>$56,746</td>
+				<td>0.40%</td>
+			</tr>
+			<tr>
+				<td>37</td>
+				<td>
+					Malaysia
+				</td>
+				<td>$314,710,259,511</td>
+				<td>$315 billion</td>
+				<td>5.90%</td>
+				<td>31,104,646</td>
+				<td>$10,118</td>
+				<td>0.39%</td>
+			</tr>
+			<tr>
+				<td>38</td>
+				<td>
+					Colombia
+				</td>
+				<td>$314,457,601,860</td>
+				<td>$314 billion</td>
+				<td>1.79%</td>
+				<td>48,909,839</td>
+				<td>$6,429</td>
+				<td>0.39%</td>
+			</tr>
+			<tr>
+				<td>39</td>
+				<td>
+					Philippines
+				</td>
+				<td>$313,595,208,737</td>
+				<td>$314 billion</td>
+				<td>6.68%</td>
+				<td>105,172,925</td>
+				<td>$2,982</td>
+				<td>0.39%</td>
+			</tr>
+			<tr>
+				<td>40</td>
+				<td>
+					Pakistan
+				</td>
+				<td>$304,951,818,494</td>
+				<td>$305 billion</td>
+				<td>5.70%</td>
+				<td>207,906,209</td>
+				<td>$1,467</td>
+				<td>0.38%</td>
+			</tr>
+			<tr>
+				<td>41</td>
+				<td>
+					Chile
+				</td>
+				<td>$277,075,944,402</td>
+				<td>$277 billion</td>
+				<td>1.49%</td>
+				<td>18,470,439</td>
+				<td>$15,001</td>
+				<td>0.34%</td>
+			</tr>
+			<tr>
+				<td>42</td>
+				<td>
+					Finland
+				</td>
+				<td>$252,301,837,573</td>
+				<td>$252 billion</td>
+				<td>2.63%</td>
+				<td>5,511,371</td>
+				<td>$45,778</td>
+				<td>0.31%</td>
+			</tr>
+			<tr>
+				<td>43</td>
+				<td>
+					Bangladesh
+				</td>
+				<td>$249,723,862,487</td>
+				<td>$250 billion</td>
+				<td>7.28%</td>
+				<td>159,685,424</td>
+				<td>$1,564</td>
+				<td>0.31%</td>
+			</tr>
+			<tr>
+				<td>44</td>
+				<td>
+					Egypt
+				</td>
+				<td>$235,369,129,338</td>
+				<td>$235 billion</td>
+				<td>4.18%</td>
+				<td>96,442,591</td>
+				<td>$2,441</td>
+				<td>0.29%</td>
+			</tr>
+			<tr>
+				<td>45</td>
+				<td>
+					Vietnam
+				</td>
+				<td>$223,779,865,815</td>
+				<td>$224 billion</td>
+				<td>6.81%</td>
+				<td>94,600,648</td>
+				<td>$2,366</td>
+				<td>0.28%</td>
+			</tr>
+			<tr>
+				<td>46</td>
+				<td>
+					Portugal
+				</td>
+				<td>$219,308,128,887</td>
+				<td>$219 billion</td>
+				<td>2.68%</td>
+				<td>10,288,527</td>
+				<td>$21,316</td>
+				<td>0.27%</td>
+			</tr>
+			<tr>
+				<td>47</td>
+				<td>
+					Czech Republic (Czechia)
+				</td>
+				<td>$215,913,545,038</td>
+				<td>$216 billion</td>
+				<td>4.29%</td>
+				<td>10,641,034</td>
+				<td>$20,291</td>
+				<td>0.27%</td>
+			</tr>
+			<tr>
+				<td>48</td>
+				<td>
+					Romania
+				</td>
+				<td>$211,883,923,504</td>
+				<td>$212 billion</td>
+				<td>7.26%</td>
+				<td>19,653,969</td>
+				<td>$10,781</td>
+				<td>0.26%</td>
+			</tr>
+			<tr>
+				<td>49</td>
+				<td>
+					Peru
+				</td>
+				<td>$211,389,272,242</td>
+				<td>$211 billion</td>
+				<td>2.53%</td>
+				<td>31,444,298</td>
+				<td>$6,723</td>
+				<td>0.26%</td>
+			</tr>
+			<tr>
+				<td>50</td>
+				<td>
+					New Zealand
+				</td>
+				<td>$204,139,049,909</td>
+				<td>$204 billion</td>
+				<td>3.03%</td>
+				<td>4,702,034</td>
+				<td>$43,415</td>
+				<td>0.25%</td>
+			</tr>
+			<tr>
+				<td>51</td>
+				<td>
+					Greece
+				</td>
+				<td>$203,085,551,429</td>
+				<td>$203 billion</td>
+				<td>1.35%</td>
+				<td>10,569,450</td>
+				<td>$19,214</td>
+				<td>0.25%</td>
+			</tr>
+			<tr>
+				<td>52</td>
+				<td>
+					Iraq
+				</td>
+				<td>$192,060,810,811</td>
+				<td>$192 billion</td>
+				<td>-2.07%</td>
+				<td>37,552,781</td>
+				<td>$5,114</td>
+				<td>0.24%</td>
+			</tr>
+			<tr>
+				<td>53</td>
+				<td>
+					Algeria
+				</td>
+				<td>$167,555,280,113</td>
+				<td>$168 billion</td>
+				<td>1.60%</td>
+				<td>41,389,189</td>
+				<td>$4,048</td>
+				<td>0.21%</td>
+			</tr>
+			<tr>
+				<td>54</td>
+				<td>
+					Qatar
+				</td>
+				<td>$166,928,571,429</td>
+				<td>$167 billion</td>
+				<td>1.58%</td>
+				<td>2,724,728</td>
+				<td>$61,264</td>
+				<td>0.21%</td>
+			</tr>
+			<tr>
+				<td>55</td>
+				<td>
+					Kazakhstan
+				</td>
+				<td>$162,886,867,832</td>
+				<td>$163 billion</td>
+				<td>4.10%</td>
+				<td>18,080,019</td>
+				<td>$9,009</td>
+				<td>0.20%</td>
+			</tr>
+			<tr>
+				<td>56</td>
+				<td>
+					Hungary
+				</td>
+				<td>$139,761,138,103</td>
+				<td>$140 billion</td>
+				<td>3.99%</td>
+				<td>9,729,823</td>
+				<td>$14,364</td>
+				<td>0.17%</td>
+			</tr>
+			<tr>
+				<td>57</td>
+				<td>
+					Angola
+				</td>
+				<td>$122,123,822,334</td>
+				<td>$122 billion</td>
+				<td>-0.15%</td>
+				<td>29,816,766</td>
+				<td>$4,096</td>
+				<td>0.15%</td>
+			</tr>
+			<tr>
+				<td>58</td>
+				<td>
+					Kuwait
+				</td>
+				<td>$120,126,277,613</td>
+				<td>$120 billion</td>
+				<td>-2.87%</td>
+				<td>4,056,099</td>
+				<td>$29,616</td>
+				<td>0.15%</td>
+			</tr>
+			<tr>
+				<td>59</td>
+				<td>
+					Sudan
+				</td>
+				<td>$117,487,857,143</td>
+				<td>$117 billion</td>
+				<td>4.28%</td>
+				<td>40,813,397</td>
+				<td>$2,879</td>
+				<td>0.15%</td>
+			</tr>
+			<tr>
+				<td>60</td>
+				<td>
+					Ukraine
+				</td>
+				<td>$112,154,185,121</td>
+				<td>$112 billion</td>
+				<td>2.52%</td>
+				<td>44,487,709</td>
+				<td>$2,521</td>
+				<td>0.14%</td>
+			</tr>
+			<tr>
+				<td>61</td>
+				<td>
+					Morocco
+				</td>
+				<td>$109,708,728,849</td>
+				<td>$110 billion</td>
+				<td>4.09%</td>
+				<td>35,581,255</td>
+				<td>$3,083</td>
+				<td>0.14%</td>
+			</tr>
+			<tr>
+				<td>62</td>
+				<td>
+					Ecuador
+				</td>
+				<td>$104,295,862,000</td>
+				<td>$104 billion</td>
+				<td>2.37%</td>
+				<td>16,785,361</td>
+				<td>$6,214</td>
+				<td>0.13%</td>
+			</tr>
+			<tr>
+				<td>63</td>
+				<td>
+					Cuba
+				</td>
+				<td>$96,851,000,000</td>
+				<td>$96.85 billion</td>
+				<td>1.78%</td>
+				<td>11,339,254</td>
+				<td>$8,541</td>
+				<td>0.12%</td>
+			</tr>
+			<tr>
+				<td>64</td>
+				<td>
+					Slovakia
+				</td>
+				<td>$95,617,670,260</td>
+				<td>$95.62 billion</td>
+				<td>3.40%</td>
+				<td>5,447,900</td>
+				<td>$17,551</td>
+				<td>0.12%</td>
+			</tr>
+			<tr>
+				<td>65</td>
+				<td>
+					Sri Lanka
+				</td>
+				<td>$87,357,205,923</td>
+				<td>$87.36 billion</td>
+				<td>3.31%</td>
+				<td>21,128,032</td>
+				<td>$4,135</td>
+				<td>0.11%</td>
+			</tr>
+			<tr>
+				<td>66</td>
+				<td>
+					Ethiopia
+				</td>
+				<td>$80,561,496,134</td>
+				<td>$80.56 billion</td>
+				<td>10.25%</td>
+				<td>106,399,924</td>
+				<td>$757</td>
+				<td>0.10%</td>
+			</tr>
+			<tr>
+				<td>67</td>
+				<td>
+					Kenya
+				</td>
+				<td>$79,263,075,749</td>
+				<td>$79.26 billion</td>
+				<td>4.87%</td>
+				<td>50,221,142</td>
+				<td>$1,578</td>
+				<td>0.10%</td>
+			</tr>
+			<tr>
+				<td>68</td>
+				<td>
+					Dominican Republic
+				</td>
+				<td>$75,931,656,815</td>
+				<td>$75.93 billion</td>
+				<td>4.55%</td>
+				<td>10,513,104</td>
+				<td>$7,223</td>
+				<td>0.09%</td>
+			</tr>
+			<tr>
+				<td>69</td>
+				<td>
+					Guatemala
+				</td>
+				<td>$75,620,095,538</td>
+				<td>$75.62 billion</td>
+				<td>2.76%</td>
+				<td>16,914,970</td>
+				<td>$4,471</td>
+				<td>0.09%</td>
+			</tr>
+			<tr>
+				<td>70</td>
+				<td>
+					Oman
+				</td>
+				<td>$70,783,875,163</td>
+				<td>$70.78 billion</td>
+				<td>-0.27%</td>
+				<td>4,665,928</td>
+				<td>$15,170</td>
+				<td>0.09%</td>
+			</tr>
+			<tr>
+				<td>71</td>
+				<td>
+					Myanmar
+				</td>
+				<td>$67,068,745,521</td>
+				<td>$67.07 billion</td>
+				<td>6.76%</td>
+				<td>53,382,523</td>
+				<td>$1,256</td>
+				<td>0.08%</td>
+			</tr>
+			<tr>
+				<td>72</td>
+				<td>
+					Luxembourg
+				</td>
+				<td>$62,316,359,824</td>
+				<td>$62.32 billion</td>
+				<td>2.30%</td>
+				<td>591,910</td>
+				<td>$105,280</td>
+				<td>0.08%</td>
+			</tr>
+			<tr>
+				<td>73</td>
+				<td>
+					Panama
+				</td>
+				<td>$62,283,756,584</td>
+				<td>$62.28 billion</td>
+				<td>5.32%</td>
+				<td>4,106,769</td>
+				<td>$15,166</td>
+				<td>0.08%</td>
+			</tr>
+			<tr>
+				<td>74</td>
+				<td>
+					Ghana
+				</td>
+				<td>$58,996,776,238</td>
+				<td>$59.00 billion</td>
+				<td>8.14%</td>
+				<td>29,121,465</td>
+				<td>$2,026</td>
+				<td>0.07%</td>
+			</tr>
+			<tr>
+				<td>75</td>
+				<td>
+					Bulgaria
+				</td>
+				<td>$58,220,973,783</td>
+				<td>$58.22 billion</td>
+				<td>3.81%</td>
+				<td>7,102,444</td>
+				<td>$8,197</td>
+				<td>0.07%</td>
+			</tr>
+			<tr>
+				<td>76</td>
+				<td>
+					Costa Rica
+				</td>
+				<td>$57,285,984,448</td>
+				<td>$57.29 billion</td>
+				<td>3.28%</td>
+				<td>4,949,954</td>
+				<td>$11,573</td>
+				<td>0.07%</td>
+			</tr>
+			<tr>
+				<td>77</td>
+				<td>
+					Uruguay
+				</td>
+				<td>$56,156,972,158</td>
+				<td>$56.16 billion</td>
+				<td>2.66%</td>
+				<td>3,436,641</td>
+				<td>$16,341</td>
+				<td>0.07%</td>
+			</tr>
+			<tr>
+				<td>78</td>
+				<td>
+					Croatia
+				</td>
+				<td>$55,213,087,271</td>
+				<td>$55.21 billion</td>
+				<td>2.92%</td>
+				<td>4,182,857</td>
+				<td>$13,200</td>
+				<td>0.07%</td>
+			</tr>
+			<tr>
+				<td>79</td>
+				<td>
+					Belarus
+				</td>
+				<td>$54,456,465,473</td>
+				<td>$54.46 billion</td>
+				<td>2.42%</td>
+				<td>9,450,231</td>
+				<td>$5,762</td>
+				<td>0.07%</td>
+			</tr>
+			<tr>
+				<td>80</td>
+				<td>
+					Lebanon
+				</td>
+				<td>$53,576,985,687</td>
+				<td>$53.58 billion</td>
+				<td>1.53%</td>
+				<td>6,819,373</td>
+				<td>$7,857</td>
+				<td>0.07%</td>
+			</tr>
+			<tr>
+				<td>81</td>
+				<td>
+					Tanzania
+				</td>
+				<td>$53,320,625,959</td>
+				<td>$53.32 billion</td>
+				<td>7.10%</td>
+				<td>54,660,339</td>
+				<td>$975</td>
+				<td>0.07%</td>
+			</tr>
+			<tr>
+				<td>82</td>
+				<td>
+					Macao
+				</td>
+				<td>$50,361,201,096</td>
+				<td>$50.36 billion</td>
+				<td>9.10%</td>
+				<td>622,585</td>
+				<td>$80,890</td>
+				<td>0.06%</td>
+			</tr>
+			<tr>
+				<td>83</td>
+				<td>
+					Uzbekistan
+				</td>
+				<td>$49,677,172,714</td>
+				<td>$49.68 billion</td>
+				<td>5.30%</td>
+				<td>31,959,785</td>
+				<td>$1,554</td>
+				<td>0.06%</td>
+			</tr>
+			<tr>
+				<td>84</td>
+				<td>
+					Slovenia
+				</td>
+				<td>$48,769,655,479</td>
+				<td>$48.77 billion</td>
+				<td>5.00%</td>
+				<td>2,076,394</td>
+				<td>$23,488</td>
+				<td>0.06%</td>
+			</tr>
+			<tr>
+				<td>85</td>
+				<td>
+					Lithuania
+				</td>
+				<td>$47,544,459,559</td>
+				<td>$47.54 billion</td>
+				<td>3.83%</td>
+				<td>2,845,414</td>
+				<td>$16,709</td>
+				<td>0.06%</td>
+			</tr>
+			<tr>
+				<td>86</td>
+				<td>
+					Serbia
+				</td>
+				<td>$41,431,648,801</td>
+				<td>$41.43 billion</td>
+				<td>1.87%</td>
+				<td>8,829,628</td>
+				<td>$4,692</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>87</td>
+				<td>
+					Azerbaijan
+				</td>
+				<td>$40,747,792,238</td>
+				<td>$40.75 billion</td>
+				<td>0.10%</td>
+				<td>9,845,320</td>
+				<td>$4,139</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>88</td>
+				<td>
+					Jordan
+				</td>
+				<td>$40,068,308,451</td>
+				<td>$40.07 billion</td>
+				<td>1.97%</td>
+				<td>9,785,843</td>
+				<td>$4,095</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>89</td>
+				<td>
+					Tunisia
+				</td>
+				<td>$39,952,095,561</td>
+				<td>$39.95 billion</td>
+				<td>1.96%</td>
+				<td>11,433,443</td>
+				<td>$3,494</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>90</td>
+				<td>
+					Paraguay
+				</td>
+				<td>$39,667,400,816</td>
+				<td>$39.67 billion</td>
+				<td>5.21%</td>
+				<td>6,867,061</td>
+				<td>$5,776</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>91</td>
+				<td>
+					Libya
+				</td>
+				<td>$38,107,728,083</td>
+				<td>$38.11 billion</td>
+				<td>26.68%</td>
+				<td>6,580,724</td>
+				<td>$5,791</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>92</td>
+				<td>
+					Turkmenistan
+				</td>
+				<td>$37,926,285,714</td>
+				<td>$37.93 billion</td>
+				<td>6.50%</td>
+				<td>5,757,667</td>
+				<td>$6,587</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>93</td>
+				<td>
+					DR Congo
+				</td>
+				<td>$37,642,482,562</td>
+				<td>$37.64 billion</td>
+				<td>3.70%</td>
+				<td>81,398,764</td>
+				<td>$462</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>94</td>
+				<td>
+					Bolivia
+				</td>
+				<td>$37,508,642,113</td>
+				<td>$37.51 billion</td>
+				<td>4.20%</td>
+				<td>11,192,855</td>
+				<td>$3,351</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>95</td>
+				<td>
+					Côte d'Ivoire
+				</td>
+				<td>$37,353,276,059</td>
+				<td>$37.35 billion</td>
+				<td>7.70%</td>
+				<td>24,437,470</td>
+				<td>$1,529</td>
+				<td>0.05%</td>
+			</tr>
+			<tr>
+				<td>96</td>
+				<td>
+					Bahrain
+				</td>
+				<td>$35,432,686,170</td>
+				<td>$35.43 billion</td>
+				<td>3.88%</td>
+				<td>1,494,076</td>
+				<td>$23,715</td>
+				<td>0.04%</td>
+			</tr>
+			<tr>
+				<td>97</td>
+				<td>
+					Cameroon
+				</td>
+				<td>$34,922,782,311</td>
+				<td>$34.92 billion</td>
+				<td>3.55%</td>
+				<td>24,566,073</td>
+				<td>$1,422</td>
+				<td>0.04%</td>
+			</tr>
+			<tr>
+				<td>98</td>
+				<td>
+					Yemen
+				</td>
+				<td>$31,267,675,216</td>
+				<td>$31.27 billion</td>
+				<td>-5.94%</td>
+				<td>27,834,819</td>
+				<td>$1,123</td>
+				<td>0.04%</td>
+			</tr>
+			<tr>
+				<td>99</td>
+				<td>
+					Latvia
+				</td>
+				<td>$30,463,302,414</td>
+				<td>$30.46 billion</td>
+				<td>4.55%</td>
+				<td>1,951,097</td>
+				<td>$15,613</td>
+				<td>0.04%</td>
+			</tr>
+			<tr>
+				<td>100</td>
+				<td>
+					Estonia
+				</td>
+				<td>$26,611,651,599</td>
+				<td>$26.61 billion</td>
+				<td>4.85%</td>
+				<td>1,319,390</td>
+				<td>$20,170</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>101</td>
+				<td>
+					Uganda
+				</td>
+				<td>$25,995,031,850</td>
+				<td>$26.00 billion</td>
+				<td>3.86%</td>
+				<td>41,166,588</td>
+				<td>$631</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>102</td>
+				<td>
+					Zambia
+				</td>
+				<td>$25,868,142,073</td>
+				<td>$25.87 billion</td>
+				<td>3.40%</td>
+				<td>16,853,599</td>
+				<td>$1,535</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>103</td>
+				<td>
+					Nepal
+				</td>
+				<td>$24,880,266,905</td>
+				<td>$24.88 billion</td>
+				<td>7.91%</td>
+				<td>27,632,681</td>
+				<td>$900</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>104</td>
+				<td>
+					El Salvador
+				</td>
+				<td>$24,805,439,600</td>
+				<td>$24.81 billion</td>
+				<td>2.32%</td>
+				<td>6,388,126</td>
+				<td>$3,883</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>105</td>
+				<td>
+					Iceland
+				</td>
+				<td>$24,488,467,010</td>
+				<td>$24.49 billion</td>
+				<td>3.64%</td>
+				<td>334,393</td>
+				<td>$73,233</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>106</td>
+				<td>
+					Honduras
+				</td>
+				<td>$22,978,532,897</td>
+				<td>$22.98 billion</td>
+				<td>4.79%</td>
+				<td>9,429,013</td>
+				<td>$2,437</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>107</td>
+				<td>
+					Cambodia
+				</td>
+				<td>$22,158,209,503</td>
+				<td>$22.16 billion</td>
+				<td>7.10%</td>
+				<td>16,009,409</td>
+				<td>$1,384</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>108</td>
+				<td>
+					Trinidad and Tobago
+				</td>
+				<td>$22,079,017,627</td>
+				<td>$22.08 billion</td>
+				<td>-2.34%</td>
+				<td>1,384,059</td>
+				<td>$15,952</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>109</td>
+				<td>
+					Cyprus
+				</td>
+				<td>$22,054,225,828</td>
+				<td>$22.05 billion</td>
+				<td>4.23%</td>
+				<td>1,179,678</td>
+				<td>$18,695</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>110</td>
+				<td>
+					Zimbabwe
+				</td>
+				<td>$22,040,902,300</td>
+				<td>$22.04 billion</td>
+				<td>4.70%</td>
+				<td>14,236,595</td>
+				<td>$1,548</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>111</td>
+				<td>
+					Senegal
+				</td>
+				<td>$21,070,225,735</td>
+				<td>$21.07 billion</td>
+				<td>7.15%</td>
+				<td>15,419,355</td>
+				<td>$1,366</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>112</td>
+				<td>
+					Papua New Guinea
+				</td>
+				<td>$20,536,314,601</td>
+				<td>$20.54 billion</td>
+				<td>2.55%</td>
+				<td>8,438,036</td>
+				<td>$2,434</td>
+				<td>0.03%</td>
+			</tr>
+			<tr>
+				<td>113</td>
+				<td>
+					Afghanistan
+				</td>
+				<td>$19,543,976,895</td>
+				<td>$19.54 billion</td>
+				<td>2.67%</td>
+				<td>36,296,113</td>
+				<td>$538</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>114</td>
+				<td>
+					Bosnia and Herzegovina
+				</td>
+				<td>$18,054,854,789</td>
+				<td>$18.05 billion</td>
+				<td>3.19%</td>
+				<td>3,351,525</td>
+				<td>$5,387</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>115</td>
+				<td>
+					Botswana
+				</td>
+				<td>$17,406,565,823</td>
+				<td>$17.41 billion</td>
+				<td>2.36%</td>
+				<td>2,205,080</td>
+				<td>$7,894</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>116</td>
+				<td>
+					Laos
+				</td>
+				<td>$16,853,087,485</td>
+				<td>$16.85 billion</td>
+				<td>6.89%</td>
+				<td>6,953,035</td>
+				<td>$2,424</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>117</td>
+				<td>
+					Mali
+				</td>
+				<td>$15,334,336,144</td>
+				<td>$15.33 billion</td>
+				<td>5.40%</td>
+				<td>18,512,430</td>
+				<td>$828</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>118</td>
+				<td>
+					Georgia
+				</td>
+				<td>$15,081,338,092</td>
+				<td>$15.08 billion</td>
+				<td>4.83%</td>
+				<td>4,008,716</td>
+				<td>$3,762</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>119</td>
+				<td>
+					Gabon
+				</td>
+				<td>$15,013,950,984</td>
+				<td>$15.01 billion</td>
+				<td>0.50%</td>
+				<td>2,064,823</td>
+				<td>$7,271</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>120</td>
+				<td>
+					Jamaica
+				</td>
+				<td>$14,781,107,822</td>
+				<td>$14.78 billion</td>
+				<td>0.98%</td>
+				<td>2,920,848</td>
+				<td>$5,061</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>121</td>
+				<td>
+					State of Palestine
+				</td>
+				<td>$14,498,100,000</td>
+				<td>$14.50 billion</td>
+				<td>3.14%</td>
+				<td>4,747,227</td>
+				<td>$3,054</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>122</td>
+				<td>
+					Nicaragua
+				</td>
+				<td>$13,814,261,536</td>
+				<td>$13.81 billion</td>
+				<td>4.86%</td>
+				<td>6,384,846</td>
+				<td>$2,164</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>123</td>
+				<td>
+					Mauritius
+				</td>
+				<td>$13,266,427,697</td>
+				<td>$13.27 billion</td>
+				<td>3.82%</td>
+				<td>1,264,499</td>
+				<td>$10,491</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>124</td>
+				<td>
+					Namibia
+				</td>
+				<td>$13,253,698,015</td>
+				<td>$13.25 billion</td>
+				<td>-0.95%</td>
+				<td>2,402,633</td>
+				<td>$5,516</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>125</td>
+				<td>
+					Albania
+				</td>
+				<td>$13,038,538,300</td>
+				<td>$13.04 billion</td>
+				<td>3.84%</td>
+				<td>2,884,169</td>
+				<td>$4,521</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>126</td>
+				<td>
+					Mozambique
+				</td>
+				<td>$12,645,508,634</td>
+				<td>$12.65 billion</td>
+				<td>3.74%</td>
+				<td>28,649,018</td>
+				<td>$441</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>127</td>
+				<td>
+					Malta
+				</td>
+				<td>$12,518,134,319</td>
+				<td>$12.52 billion</td>
+				<td>6.42%</td>
+				<td>437,933</td>
+				<td>$28,585</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>128</td>
+				<td>
+					Burkina Faso
+				</td>
+				<td>$12,322,864,245</td>
+				<td>$12.32 billion</td>
+				<td>6.30%</td>
+				<td>19,193,234</td>
+				<td>$642</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>129</td>
+				<td>
+					Equatorial Guinea
+				</td>
+				<td>$12,293,579,173</td>
+				<td>$12.29 billion</td>
+				<td>-4.92%</td>
+				<td>1,262,002</td>
+				<td>$9,741</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>130</td>
+				<td>
+					Bahamas
+				</td>
+				<td>$12,162,100,000</td>
+				<td>$12.16 billion</td>
+				<td>1.44%</td>
+				<td>381,755</td>
+				<td>$31,858</td>
+				<td>0.02%</td>
+			</tr>
+			<tr>
+				<td>131</td>
+				<td>
+					Brunei
+				</td>
+				<td>$12,128,089,002</td>
+				<td>$12.13 billion</td>
+				<td>1.33%</td>
+				<td>424,473</td>
+				<td>$28,572</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>132</td>
+				<td>
+					Armenia
+				</td>
+				<td>$11,536,590,636</td>
+				<td>$11.54 billion</td>
+				<td>7.50%</td>
+				<td>2,944,791</td>
+				<td>$3,918</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>133</td>
+				<td>
+					Madagascar
+				</td>
+				<td>$11,499,803,807</td>
+				<td>$11.50 billion</td>
+				<td>4.17%</td>
+				<td>25,570,512</td>
+				<td>$450</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>134</td>
+				<td>
+					Mongolia
+				</td>
+				<td>$11,433,635,876</td>
+				<td>$11.43 billion</td>
+				<td>5.30%</td>
+				<td>3,113,786</td>
+				<td>$3,672</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>135</td>
+				<td>
+					North Macedonia
+				</td>
+				<td>$11,279,509,014</td>
+				<td>$11.28 billion</td>
+				<td>0.24%</td>
+				<td>2,081,996</td>
+				<td>$5,418</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>136</td>
+				<td>
+					Guinea
+				</td>
+				<td>$10,472,514,515</td>
+				<td>$10.47 billion</td>
+				<td>10.60%</td>
+				<td>12,067,519</td>
+				<td>$868</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>137</td>
+				<td>
+					Chad
+				</td>
+				<td>$9,871,247,732</td>
+				<td>$9.87 billion</td>
+				<td>-2.95%</td>
+				<td>15,016,753</td>
+				<td>$657</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>138</td>
+				<td>
+					Benin
+				</td>
+				<td>$9,246,696,924</td>
+				<td>$9.25 billion</td>
+				<td>5.84%</td>
+				<td>11,175,198</td>
+				<td>$827</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>139</td>
+				<td>
+					Rwanda
+				</td>
+				<td>$9,135,454,442</td>
+				<td>$9.14 billion</td>
+				<td>6.06%</td>
+				<td>11,980,961</td>
+				<td>$762</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>140</td>
+				<td>
+					Congo
+				</td>
+				<td>$8,701,334,800</td>
+				<td>$8.70 billion</td>
+				<td>-3.10%</td>
+				<td>5,110,695</td>
+				<td>$1,703</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>141</td>
+				<td>
+					Haiti
+				</td>
+				<td>$8,408,150,518</td>
+				<td>$8.41 billion</td>
+				<td>1.17%</td>
+				<td>10,982,366</td>
+				<td>$766</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>142</td>
+				<td>
+					Moldova
+				</td>
+				<td>$8,128,493,432</td>
+				<td>$8.13 billion</td>
+				<td>4.50%</td>
+				<td>4,059,684</td>
+				<td>$2,002</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>143</td>
+				<td>
+					Niger
+				</td>
+				<td>$8,119,710,126</td>
+				<td>$8.12 billion</td>
+				<td>4.89%</td>
+				<td>21,602,382</td>
+				<td>$376</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>144</td>
+				<td>
+					Kyrgyzstan
+				</td>
+				<td>$7,564,738,836</td>
+				<td>$7.56 billion</td>
+				<td>4.58%</td>
+				<td>6,189,733</td>
+				<td>$1,222</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>145</td>
+				<td>
+					Tajikistan
+				</td>
+				<td>$7,146,449,583</td>
+				<td>$7.15 billion</td>
+				<td>7.62%</td>
+				<td>8,880,268</td>
+				<td>$805</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>146</td>
+				<td>
+					Malawi
+				</td>
+				<td>$6,303,292,264</td>
+				<td>$6.30 billion</td>
+				<td>4.00%</td>
+				<td>17,670,196</td>
+				<td>$357</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>147</td>
+				<td>
+					Guam
+				</td>
+				<td>$5,859,000,000</td>
+				<td>$5.86 billion</td>
+				<td>0.19%</td>
+				<td>164,281</td>
+				<td>$35,665</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>148</td>
+				<td>
+					Fiji
+				</td>
+				<td>$5,061,202,767</td>
+				<td>$5.06 billion</td>
+				<td>3.80%</td>
+				<td>877,459</td>
+				<td>$5,768</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>149</td>
+				<td>
+					Mauritania
+				</td>
+				<td>$5,024,708,656</td>
+				<td>$5.02 billion</td>
+				<td>3.50%</td>
+				<td>4,282,570</td>
+				<td>$1,173</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>150</td>
+				<td>
+					Maldives
+				</td>
+				<td>$4,865,546,027</td>
+				<td>$4.87 billion</td>
+				<td>6.91%</td>
+				<td>496,402</td>
+				<td>$9,802</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>151</td>
+				<td>
+					Montenegro
+				</td>
+				<td>$4,844,592,067</td>
+				<td>$4.84 billion</td>
+				<td>4.70%</td>
+				<td>627,563</td>
+				<td>$7,720</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>152</td>
+				<td>
+					Togo
+				</td>
+				<td>$4,757,776,485</td>
+				<td>$4.76 billion</td>
+				<td>4.40%</td>
+				<td>7,698,474</td>
+				<td>$618</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>153</td>
+				<td>
+					Barbados
+				</td>
+				<td>$4,673,500,000</td>
+				<td>$4.67 billion</td>
+				<td>1.00%</td>
+				<td>286,232</td>
+				<td>$16,328</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>154</td>
+				<td>
+					Eswatini
+				</td>
+				<td>$4,433,664,364</td>
+				<td>$4.43 billion</td>
+				<td>1.87%</td>
+				<td>1,124,805</td>
+				<td>$3,942</td>
+				<td>0.01%</td>
+			</tr>
+			<tr>
+				<td>155</td>
+				<td>
+					Sierra Leone
+				</td>
+				<td>$3,775,047,334</td>
+				<td>$3.78 billion</td>
+				<td>4.21%</td>
+				<td>7,488,423</td>
+				<td>$504</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>156</td>
+				<td>
+					Guyana
+				</td>
+				<td>$3,621,046,005</td>
+				<td>$3.62 billion</td>
+				<td>2.92%</td>
+				<td>775,222</td>
+				<td>$4,671</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>157</td>
+				<td>
+					Liberia
+				</td>
+				<td>$3,285,455,000</td>
+				<td>$3.29 billion</td>
+				<td>2.47%</td>
+				<td>4,702,226</td>
+				<td>$699</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>158</td>
+				<td>
+					Burundi
+				</td>
+				<td>$3,172,416,146</td>
+				<td>$3.17 billion</td>
+				<td>0.50%</td>
+				<td>10,827,019</td>
+				<td>$293</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>159</td>
+				<td>
+					Andorra
+				</td>
+				<td>$3,012,914,131</td>
+				<td>$3.01 billion</td>
+				<td>1.87%</td>
+				<td>77,001</td>
+				<td>$39,128</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>160</td>
+				<td>
+					Suriname
+				</td>
+				<td>$2,995,827,901</td>
+				<td>$3.00 billion</td>
+				<td>1.69%</td>
+				<td>570,496</td>
+				<td>$5,251</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>161</td>
+				<td>
+					Timor-Leste
+				</td>
+				<td>$2,954,621,000</td>
+				<td>$2.95 billion</td>
+				<td>-8.00%</td>
+				<td>1,243,258</td>
+				<td>$2,377</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>162</td>
+				<td>
+					Aruba
+				</td>
+				<td>$2,700,558,659</td>
+				<td>$2.70 billion</td>
+				<td>1.33%</td>
+				<td>105,366</td>
+				<td>$25,630</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>163</td>
+				<td>
+					Lesotho
+				</td>
+				<td>$2,578,265,358</td>
+				<td>$2.58 billion</td>
+				<td>-2.29%</td>
+				<td>2,091,534</td>
+				<td>$1,233</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>164</td>
+				<td>
+					Bhutan
+				</td>
+				<td>$2,528,007,911</td>
+				<td>$2.53 billion</td>
+				<td>4.63%</td>
+				<td>745,563</td>
+				<td>$3,391</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>165</td>
+				<td>
+					Central African Republic
+				</td>
+				<td>$1,949,411,659</td>
+				<td>$1.95 billion</td>
+				<td>4.30%</td>
+				<td>4,596,023</td>
+				<td>$424</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>166</td>
+				<td>
+					Belize
+				</td>
+				<td>$1,862,614,800</td>
+				<td>$1.86 billion</td>
+				<td>1.44%</td>
+				<td>375,769</td>
+				<td>$4,957</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>167</td>
+				<td>
+					Cabo Verde
+				</td>
+				<td>$1,772,706,451</td>
+				<td>$1.77 billion</td>
+				<td>4.01%</td>
+				<td>537,498</td>
+				<td>$3,298</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>168</td>
+				<td>
+					Saint Lucia
+				</td>
+				<td>$1,737,504,296</td>
+				<td>$1.74 billion</td>
+				<td>3.82%</td>
+				<td>180,954</td>
+				<td>$9,602</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>169</td>
+				<td>
+					San Marino
+				</td>
+				<td>$1,632,860,041</td>
+				<td>$1.63 billion</td>
+				<td>1.50%</td>
+				<td>33,671</td>
+				<td>$48,495</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>170</td>
+				<td>
+					Northern Mariana Islands
+				</td>
+				<td>$1,593,000,000</td>
+				<td>$1.59 billion</td>
+				<td>25.14%</td>
+				<td>56,562</td>
+				<td>$28,164</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>171</td>
+				<td>
+					Antigua and Barbuda
+				</td>
+				<td>$1,510,084,751</td>
+				<td>$1.51 billion</td>
+				<td>3.03%</td>
+				<td>95,426</td>
+				<td>$15,825</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>172</td>
+				<td>
+					Seychelles
+				</td>
+				<td>$1,497,959,569</td>
+				<td>$1.50 billion</td>
+				<td>5.28%</td>
+				<td>96,418</td>
+				<td>$15,536</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>173</td>
+				<td>
+					Gambia
+				</td>
+				<td>$1,489,464,788</td>
+				<td>$1.49 billion</td>
+				<td>4.56%</td>
+				<td>2,213,889</td>
+				<td>$673</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>174</td>
+				<td>
+					Guinea-Bissau
+				</td>
+				<td>$1,346,841,897</td>
+				<td>$1.35 billion</td>
+				<td>5.92%</td>
+				<td>1,828,145</td>
+				<td>$737</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>175</td>
+				<td>
+					Solomon Islands
+				</td>
+				<td>$1,303,453,622</td>
+				<td>$1.30 billion</td>
+				<td>3.24%</td>
+				<td>636,039</td>
+				<td>$2,049</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>176</td>
+				<td>
+					Grenada
+				</td>
+				<td>$1,126,882,296</td>
+				<td>$1.13 billion</td>
+				<td>5.06%</td>
+				<td>110,874</td>
+				<td>$10,164</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>177</td>
+				<td>
+					Comoros
+				</td>
+				<td>$1,068,124,330</td>
+				<td>$1.07 billion</td>
+				<td>2.71%</td>
+				<td>813,892</td>
+				<td>$1,312</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>178</td>
+				<td>
+					Saint Kitts &amp; Nevis
+				</td>
+				<td>$992,007,403</td>
+				<td>$992 million</td>
+				<td>1.17%</td>
+				<td>52,045</td>
+				<td>$19,061</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>179</td>
+				<td>
+					Vanuatu
+				</td>
+				<td>$862,879,789</td>
+				<td>$863 million</td>
+				<td>4.50%</td>
+				<td>285,510</td>
+				<td>$3,022</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>180</td>
+				<td>
+					Samoa
+				</td>
+				<td>$840,927,997</td>
+				<td>$841 million</td>
+				<td>2.70%</td>
+				<td>195,352</td>
+				<td>$4,305</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>181</td>
+				<td>
+					St. Vincent &amp; Grenadines
+				</td>
+				<td>$785,222,509</td>
+				<td>$785 million</td>
+				<td>0.86%</td>
+				<td>109,827</td>
+				<td>$7,150</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>182</td>
+				<td>
+					American Samoa
+				</td>
+				<td>$634,000,000</td>
+				<td>$634 million</td>
+				<td>-5.38%</td>
+				<td>55,620</td>
+				<td>$11,399</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>183</td>
+				<td>
+					Dominica
+				</td>
+				<td>$496,727,000</td>
+				<td>$497 million</td>
+				<td>-9.53%</td>
+				<td>71,458</td>
+				<td>$6,951</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>184</td>
+				<td>
+					Tonga
+				</td>
+				<td>$427,659,795</td>
+				<td>$428 million</td>
+				<td>2.70%</td>
+				<td>101,998</td>
+				<td>$4,193</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>185</td>
+				<td>
+					Sao Tome &amp; Principe
+				</td>
+				<td>$392,570,293</td>
+				<td>$393 million</td>
+				<td>3.87%</td>
+				<td>207,089</td>
+				<td>$1,896</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>186</td>
+				<td>
+					Micronesia
+				</td>
+				<td>$336,427,500</td>
+				<td>$336 million</td>
+				<td>3.20%</td>
+				<td>532,899</td>
+				<td>$631</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>187</td>
+				<td>
+					Palau
+				</td>
+				<td>$289,823,500</td>
+				<td>$290 million</td>
+				<td>-3.57%</td>
+				<td>17,808</td>
+				<td>$16,275</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>188</td>
+				<td>
+					Marshall Islands
+				</td>
+				<td>$204,173,430</td>
+				<td>$204 million</td>
+				<td>3.60%</td>
+				<td>58,058</td>
+				<td>$3,517</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>189</td>
+				<td>
+					Kiribati
+				</td>
+				<td>$185,572,502</td>
+				<td>$186 million</td>
+				<td>0.33%</td>
+				<td>114,158</td>
+				<td>$1,626</td>
+				<td>0.00%</td>
+			</tr>
+			<tr>
+				<td>190</td>
+				<td>
+					Tuvalu
+				</td>
+				<td>$39,731,317</td>
+				<td>$40 million</td>
+				<td>3.24%</td>
+				<td>11,370</td>
+				<td>$3,494</td>
+				<td>0.00%</td>
+			</tr>
+		</tbody>
+	</table>
 </div>
 __::end__

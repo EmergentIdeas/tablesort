@@ -1,4 +1,4 @@
-let appName = 'change-me'
+let appName = 'tablesort-dev'
 
 module.exports = {
     /**

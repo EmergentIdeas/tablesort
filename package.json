@@ -1,7 +1,7 @@
 {
 	"name": "@dankolz/tablesort",
-	"version": "1.0.1",
-	"description": "",
+	"version": "1.0.2",
+	"description": "a very simple way to have user sortable html tables",
 	"main": "lib/tablesort.js",
 	"scripts": {
 		"test": "node_modules/mocha/bin/mocha",
@@ -19,7 +19,7 @@
 		"pm2-bg": "parallelshell 'npm run dev-less-watch' 'npm run dev-client-js-watch' 'npm run dev-server-js-watch'",
 		"dev": "parallelshell 'npm run start' 'npm run dev-less-watch' 'npm run dev-client-js-watch'"
 	},
-	"keywords": [],
+	"keywords": ["html", "table", "sort"],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
