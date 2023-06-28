@@ -19,8 +19,16 @@
 		"pm2-bg": "parallelshell 'npm run dev-less-watch' 'npm run dev-client-js-watch' 'npm run dev-server-js-watch'",
 		"dev": "parallelshell 'npm run start' 'npm run dev-less-watch' 'npm run dev-client-js-watch'"
 	},
-	"keywords": ["html", "table", "sort"],
-	"author": "",
+	"keywords": [
+		"html",
+		"table",
+		"sort"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EmergentIdeas/tablesort.git"
+	},
+	"author": "Dan Kolz",
 	"license": "ISC",
 	"devDependencies": {
 		"express": "^4.17.1",
